@@ -11,7 +11,7 @@
     $ roscore
 ### Keep the roscore running, and in a new terminal, you can install the turtlesim simulator using the following command:
     $ sudo apt-get install ros-$(rosversion -d)-turtlesim
-### Now, clone the ROS package named as "captain_america" in the src folder of your catkin workspace.
+### Now, extract the ROS package named as "captain_america" in the src folder of your catkin workspace.
 ### In the terminal, go to the root of the workspace, and build the package:
     $ catkin_make
 ### Source the setup file using:
